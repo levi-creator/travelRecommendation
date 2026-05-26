@@ -1,0 +1,69 @@
+/* General reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar styling */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0077b6;
+  padding: 10px 20px;
+  color: white;
+}
+
+nav h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#searchBar {
+  display: flex;
+  gap: 10px;
+}
+
+/* Hero section */
+.hero {
+  background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') 
+              no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+
+.hero h2 {
+  font-size: 2.5em;
+}
+
+.hero p {
+  font-size: 1.2em;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #0096c7;
+  border: none;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+/* Results grid */
+#results {
+  padding: 20px;
+}
